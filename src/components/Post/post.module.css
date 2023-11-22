@@ -1,0 +1,36 @@
+.container{
+    padding: 14px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 100%;
+}
+.details{
+    padding-top: 6px;
+}
+.author{
+    opacity: 0.9;
+}
+.tag{
+    color: rgb(5, 112, 155);
+    font-weight: 500;
+}
+.title{
+    font-weight: 700;
+    font-size: larger;
+    padding-bottom: 5px;
+}
+@media (min-width: 901px) {
+    .container{
+        margin: 10px 250px 10px 250px;
+    }
+}
+.like_icon{
+    color: yellow;
+}

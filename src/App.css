@@ -1,0 +1,19 @@
+.posts {
+  padding-left: 15px;
+  color: rgb(51, 173, 221);
+  font-weight: 700;
+  font-size: larger;
+  display: block;
+}
+
+@media (min-width: 901px) {
+  .posts{
+    margin-left: 180px;
+  }
+}
+@media (min-width: 650px) {
+  .container{
+    display: flex;
+    align-items: center;
+  }
+}

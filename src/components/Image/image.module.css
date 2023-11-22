@@ -1,0 +1,10 @@
+.image{
+    width: 100%;
+}
+
+@media (min-width: 901px) {
+   .image{ 
+    object-fit: cover;
+    height: 300px;
+   }
+  }
